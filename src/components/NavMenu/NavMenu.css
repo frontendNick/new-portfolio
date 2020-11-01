@@ -1,0 +1,16 @@
+.sidebar {
+    position: fixed; /* меню должно быть фиксировано */
+    width: 250px; /* ширина - в зависимости от задачи */
+    height: 100vh; /* высоту можно указать в процента */
+    background-color: darkslategrey;
+    left: -250px;
+
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: 500ms;
+}
+
+/* toggler */
+.sidebar.activate{
+    left: 0px;
+}

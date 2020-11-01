@@ -1,0 +1,23 @@
+.Button {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 50%;
+
+    /*  позиционировать переиспользуемые кнопки - не лучшая идея  */
+}
+
+.Button:hover {
+    cursor: pointer;
+    background-color: darkslategrey;
+}
+
+.Button span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 0;
+}

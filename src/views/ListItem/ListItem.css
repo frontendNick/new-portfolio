@@ -1,0 +1,21 @@
+.ListItem:first-child {
+    text-align: center;
+    color: white;
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+
+.ListItem:not(:first-child){
+    width: 90%;
+    margin-left: 10%;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.ListItem:not(:first-child):hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
